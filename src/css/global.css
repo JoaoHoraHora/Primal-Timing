@@ -1,0 +1,38 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /*Colors*/
+
+    ---color-bcg1: #808CFD;
+    ---color-bcg2: #E9ECFF;
+    ---color-bcg3: #FFFFFF;
+    ---color-bcg4: #000000;
+
+
+    /*Font Family*/
+
+    ---font-family1: "Anek Tamil", sans-serif;
+    ---font-family2: "Geist", sans-serif;
+    ---font-family3: "Geist Mono", monospace;
+
+
+    /*Font Size*/
+
+    ---font-h1: 116px;
+    ---font-h2: 57px;
+    ---font-h3: 45px;
+    ---font-h4: 25px;
+    ---font-h5: 22px;
+
+    ---font-p1: 19px;
+    ---font-p2: 17px;
+    ---font-p3: 14px;
+
+    ---font-link: 15px;
+}
