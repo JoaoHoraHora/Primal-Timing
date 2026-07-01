@@ -1,2 +1,62 @@
 @import url(../../../src/css/global.css);
 
+.header-container{
+    position: sticky;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(---color-bcg2);
+    border-bottom: 1.5px solid var(---color-bcg4);
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.header-logo span{
+    font-family: var(---font-family4);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-header{
+    display: flex;
+    gap: 60px;
+}
+
+.nav-header-content ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-header-content ul li a{
+    text-decoration: none;
+    color: var(---color-bcg4);
+    font-family: var(---font-family3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-header-content ul li a:hover{
+    color: var(---color-bcg3);
+}
+
+.nav-btn{
+    padding: 12px 17px;
+    background-color: var(---color-bcg1);
+    border-radius: 7.25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover{
+    background-color: var(---color-bcg4);
+}
