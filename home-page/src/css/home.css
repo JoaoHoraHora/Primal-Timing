@@ -1,10 +1,15 @@
 @import url(../../../src/css/global.css);
 
+
+/*----------Header----------*/
+
 .header-container{
     position: sticky;
+    top: 0;
 }
 
 .header-content{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +35,11 @@
     gap: 60px;
 }
 
+.nav-header-content{
+    display: flex;
+    gap: 60px;
+}
+
 .nav-header-content ul{
     display: flex;
     align-items: center;
@@ -49,7 +59,10 @@
     color: var(---color-bcg3);
 }
 
-.nav-btn{
+.nav-btn a{
+    text-decoration: none;
+    color: var(---color-bcg4);
+    font-family: var(---font-family3);
     padding: 12px 17px;
     background-color: var(---color-bcg1);
     border-radius: 7.25px;
@@ -57,6 +70,83 @@
     transition: all 0.3s ease;
 }
 
-.nav-btn:hover{
+.nav-btn a:hover{
+    color: var(---color-bcg3);
+    background-color: var(---color-bcg4);
+}
+
+
+/*----------Main----------*/
+
+.main-content{
+    background-color: var(---color-bcg3);
+    padding: 20px;
+    border-bottom: 1.5px solid var(---color-bcg4);
+}
+
+.main-content h1{
+    text-align: center;
+    font-family: var(---font-family1);
+    font-size: 100px;
+    text-transform: uppercase;
+    
+}
+
+.main-content h1 span{
+    color: var(---color-bcg1);
+}
+
+
+/*----------Section 1 - Hero----------*/
+
+.hero-content{
+    background-color: var(---color-bcg2);
+}
+
+.hero-content-first{
+    display: flex;
+}
+
+.hero-content-first img{
+    width: 854px;
+    height: 480px;
+}
+
+.hero-content-first-text{
+    display: flex;
+    flex-direction: column;
+    gap: 163px;
+    padding: 20px;
+}
+
+.hero-content-first-text h2{
+    font-family: var(---font-family1);
+    font-size: var(---font-h3);
+}
+
+.hero-content-first-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-content-first-text-content p{
+    font-family: var(---font-family2);
+    font-size: var(---font-p2);
+}
+
+.hero-content-first-text-btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 17px;
+    border-radius: 7.25px;
+    color: var(---color-bcg4);
+    font-family: var(---font-family3);
+    font-size: var(---font-link);
+    cursor: pointer;
+}
+
+.hero-content-first-text-btn a:hover{
+    color: var(---color-bcg3);
     background-color: var(---color-bcg4);
 }
